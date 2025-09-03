@@ -1,3 +1,3 @@
 # aurore
 
-![text ALT](https://github.com/AuroreL9/aurore/actions/workflows/pytest.yml/badge.svg)
+[![Test results](https://github.com/AuroreL9/aurore/actions/workflows/pytest.yml/badge.svg)](https://github.com/AuroreL9/aurore/actions)
