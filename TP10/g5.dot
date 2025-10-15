@@ -1,0 +1,26 @@
+graph {
+node [image="image.png" shape="none"];
+edge [fontsize="30pt" color="blue"];
+H [pos="3.9,8.3!"];
+B [pos="6.9,8!"];
+G [pos="1.7,6!"];
+D [pos="4,4!"];
+C [pos="7.2,4.2!"];
+A [pos="10.2,5.5!"];
+F [pos="1,2.5!"];
+E [pos="4.5,1!"];
+H -- B [label="2"];
+H -- G [label="14"];
+B -- G [label="4"];
+B -- D [label="9"];
+G -- D [label="1"];
+B -- C [label="2"];
+B -- A [label="1"];
+A -- C [label="4"];
+C -- D [label="1"];
+C -- E [label="3"];
+D -- E [label="1"];
+G -- F [label="6"];
+D -- F [label="3"];
+F -- E [label="1"];
+}
