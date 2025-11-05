@@ -9,9 +9,9 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Lancement Graphviz
-        run: cd TP10 && ./run1.sh g1
+        run: cd TP10 && ./run2.sh
       - name: upload du resultat
         uses: actions/upload-artifact@v4
         with:
           name: artefact
-          path: TP10/g1.svg
+          path: TP10/*.svg
