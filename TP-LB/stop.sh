@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker rm -f nginx1 nginx2 nginx-lb 2>/dev/null
